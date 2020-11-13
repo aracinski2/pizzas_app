@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_13_223022) do
+ActiveRecord::Schema.define(version: 2020_11_13_224101) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "pizzas", force: :cascade do |t|
-    t.string "type"
+    t.string "style"
     t.string "size"
     t.string "topping"
     t.decimal "price", precision: 5, scale: 2
