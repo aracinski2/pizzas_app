@@ -1,7 +1,1 @@
-{
- id: @pizza.id,
- style: @pizza.style,
- size: @pizza.size,
- topping: @pizza.topping,
- price: @pizza.price,
-}
+render partial: 'pizza.json.jb', locals: {pizza: @pizza}
